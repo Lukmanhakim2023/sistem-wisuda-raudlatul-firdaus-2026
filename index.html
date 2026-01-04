@@ -235,7 +235,7 @@
 </div>
 
 <script>
-    const nDefault = ["Ahmad Akmal Ramadhan", "Ahmad Waris Zaini", "Arya Fakhri Arta Rayhan", "Azriel Maulana", "Dimas Prayoga", "Faisal Mukhtar", "Khairul Imam", "Muh. Alif Junirwansyah", "Muh. Lutfi Adrian", "Muh. Rizki Tatjumuddin", "Muh. Rofiq Alfiansyah", "Muh. Syamsul Arifin Ilham", "Muhammad Abai Suni", "Muhammad Abdul Aziz", "Muhammad Ridwan", "Muhammad Riski", "Muhammad Riski Adiya", "Raihan Agus Salim", "Rayyan Ainurrahman", "Ridwan", "Riski Arya Faizal", "Rudi Ansyah", "Yusril Pratama Juliansyah", "Ahmad Farid", "Bima Aditya al-Farez", "Muhammad Albi", "Muhammad Farhan Arrobi", "Rohim"];
+    const nDefault = ["Ahmad Akmal Ramadhan", "Ahmad Waris Zaini", "Arya Fakhri Arta Rayhan", "Azriel Maulana", "Dimas Prayoga", "Faisal Mukhtar", "Khairul Imam", "Muh. Alif Junirwansyah", "Muh. Lutfi Adrian", "Muh. Rizki Tatjumuddin", "Muh. Rofiq Alfiansyah", "Muh. Syamsul Arifin Ilham", "Muhammad Abai Suni", "Muhammad Abdul Aziz", "Muhammad Ridwan", "Muhammad Ridwan", "Muhammad Riski", "Muhammad Riski Adiya", "Raihan Agus Salim", "Rayyan Ainurrahman", "Ridwan", "Riski Arya Faizal", "Rudi Ansyah", "Yusril Pratama Juliansyah", "Ahmad Farid", "Bima Aditya al-Farez", "Muhammad Albi", "Muhammad Farhan Arrobi", "Rohim"];
 
     let db = JSON.parse(localStorage.getItem('db_wisuda_v8')) || nDefault.map(n => ({
         nama: n, alamat: '-', ttl: '-', ayah: '-', ibu: '-', predikat: 'Jayyid', nominal: 0, status: 'Belum'
@@ -336,4 +336,5 @@
     window.onload = applyLogos;
 </script>
 </body>
+
 </html>
